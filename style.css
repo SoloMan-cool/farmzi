@@ -1,0 +1,83 @@
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+header{
+    background: rgb(23, 113, 101)
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    background: rgb(23, 113, 101);
+}
+
+.logo{
+    width: 162px;
+    height: 49px;
+}
+
+.header__list{
+    margin-left: 215px;
+    margin-right: 256px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* .header__item{} */
+
+.header__silka{
+    color: rgb(164, 214, 207);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.active{
+    color: rgb(255, 255, 255);
+}
+
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__img{
+    width: 44px;
+    height: 44px;
+}
+
+.box_in_box{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.header__text{
+    color: rgb(164, 214, 207);
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.phone__number{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+}
